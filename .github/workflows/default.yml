@@ -35,10 +35,9 @@ jobs:
       uses: behe/heroku-build@v1
       with:
         # Name of Heroku application
-        app-name: django-library-api-erebor
+        app-name: ${{ secrets.HEROKU_APPNAME }}
         # API key with the deploy role
-        api-key: 70ced9ff-c2b2-4842-a145-ae8b4f54958d
+        api-key: ${{ secrets.HEROKU_APIKEY }}
           # Directory to upload
-          path: # optional, default is .
         
     
