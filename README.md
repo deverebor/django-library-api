@@ -54,6 +54,12 @@ Para usar Django Library API, siga estas etapas:
 acesse a URL: http://127.0.0.1:8000/
 ```
 
+Ou
+
+```zsh
+acesse o site: https://django-library-api-erebor.herokuapp.com/
+```
+
 Lá você poderá adiconar, remover, atualizar e listar os livros.
 
 ## 📫 Contribuindo para Django Library API
