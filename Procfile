@@ -1,1 +1,3 @@
-web: gunicorn djangolibrary.urls
+web: gunicorn djangolibrary.wsgi:application --log-file - --log-level debug
+python manage.py collectstatic --noinput
+manage.py migrate
